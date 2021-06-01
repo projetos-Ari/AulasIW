@@ -1,71 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Trabalho de IW</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
 
-        <style type="text/css">
-        	
-        body {
-       background-image: url(img/papel.jpg);   
-
-        }
-
-       h1 {
-       	text-align: center;
-       	color: #000000;
-
-       }
-
-       h2 {
-       	color: #000000;
-
-       }
-
-
-       p {       	
-        color: #ffff;
-        background-color: slategray; 
-        font-size: 20px;
-
-       }
-
-     
-
-        </style>
 </head>
  <body>
+ 	<header class="fixo">
+ 		<h1 class="imglogo"><img class="imglogo" src="img/logotipo.jpg"></h1>
+ 		<nav class="menu-opcoes">
+ 			<ul>
+ 				<li><a href="#">Inicio</a></li>
+ 				<li><a href="#html">HTML</a></li>
+ 				<li><a href="#css">CSS</a></li>
+ 				<li><a href="#w3schools​">W3schools</a></li>
+ 				<li><a href="javascript.html">Javascript</a></li>
+ 			</ul>
+        
+        </nav>
+ 	</header>
 
- 	<div>
-	 	<h1>Sobre HTML e CSS</h1>
-	     <center> <figure><img src="img/htmlcsslogos.jpg" alt="Imagem do logo do CSS e HTML">
-	     </figure></center>
+ 	<div class="container">
 
-	    <h1>Introdução ao HTML</h1>          
-		<p>- HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas. (FERREIRA &amp; EIS, ONLINE, p.7)​</p>
-		<p>- Hipertexto pode ser definido como todo o conteúdo o qual se encontra inserido em um documento para a web, sendo que sua principal característica seria a possibilidade de se interligar a outros documentos também na web. (SILVA, 2011, p.20)​</p>
-		<p>- O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.</p>
+            <h1>Sobre HTML e CSS</h1>
+	 	    <center><img class="imgtexto" src="img/htmlcsslogos.jpg" alt="Imagem do logo do CSS e HTML">
+		    </center>
+	        <center><p style="color: #87CEEB">Saiba mais sobre o HTML <a href="https://www.w3schools.com/html/default.asp" target="_blank">AQUI!</a></p></center>
 
+        <div id="html">
+		    <h1>Introdução ao HTML</h1>          
+			  <p>- HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas. (FERREIRA &amp; EIS, ONLINE, p.7)​</p>
+			  <p>- Hipertexto pode ser definido como todo o conteúdo o qual se encontra inserido em um documento para a web, sendo que sua principal característica seria a possibilidade de se interligar a outros documentos também na web. (SILVA, 2011, p.20)​</p>
+			  <p>- O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.</p>
+        <div id="css">
 
-		<h1>O que é e para que serve o CSS​?</h1>
-		<p>- CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.​</p>
-		<p>Separar o conteúdo do documento HTML de sua formatação.​
-		Forma antiga de se formatar conteúdos</p>
-		<h2>Benefícios do uso do CSS​</h2>
-		<p>- Controle do layout de diversos documentos utilizando apenas uma folha de estilos.​</p>
+			<h1>O que é e para que serve o CSS​?</h1>
+			  <p>- CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.​</p>
+			  <p>Separar o conteúdo do documento HTML de sua formatação.​
+			Forma antiga de se formatar conteúdos</p>
+			<h2>Benefícios do uso do CSS​</h2>
+			  <p>- Controle do layout de diversos documentos utilizando apenas uma folha de estilos.​</p>
 
-		<p>- Maior precisão no controle do layout e design​</p>
+			  <p>- Maior precisão no controle do layout e design​</p>
 
-		<p>- Aplicação de diferentes layouts para adaptação do conteúdo e design em diferentes formas de apresentação (impressoras, telas de diferentes tamanhos, etc.) (W3CSCHOOL, ONLINE)​</p>
-		 <center><img src="img/html.jpg" width="620" height="305"></center>
+			  <p>- Aplicação de diferentes layouts para adaptação do conteúdo e design em diferentes formas de apresentação (impressoras, telas de diferentes tamanhos, etc.) (W3CSCHOOL, ONLINE)​</p>	
+		</div>		 
+		</div>
+		<div id="w3schools​">	 
+			<h1>O que é o W3C​?</h1>
+			  <p>- O W3C (World Wide Web Consortium), criado em outubro de 1994 por Tim Berners-Lee, é um consórcio internacional formado por empresas, instituições, pesquisadores, desenvolvedores e público em geral. A finalidade desse consórcio é desenvolver a web a seu potencial máximo, criando normas, especificações e padronizações que se aplicam aos mais diversos segmentos e setores da web. (W3C, ONLINE)​</p>
 
-		<h1>O que é o W3C​?</h1>
-		<p>- O W3C (World Wide Web Consortium), criado em outubro de 1994 por Tim Berners-Lee, é um consórcio internacional formado por empresas, instituições, pesquisadores, desenvolvedores e público em geral. A finalidade desse consórcio é desenvolver a web a seu potencial máximo, criando normas, especificações e padronizações que se aplicam aos mais diversos segmentos e setores da web. (W3C, ONLINE)​</p>
-		<center><img src="img/w3c.jpg"></center>
+			<h1>O que é o w3schools​?</h1>
+			  <p>- W3Schools é um site para desenvolvedores web, onde você pode encontrar tutoriais e referências das linguagens de desenvolvimento para web, assim  como HTML, CSS, JavaScript, PHP, SQL, W3.CSS e Bootstrap</p>
+			<figure>
+			<center><img class="imgtexto" src="img/w3schools.jpg"></center>
+        </div>
+			</figure>
 
-		<h1>O que é o w3schools​?</h1>
-		<p>- W3Schools é um site para desenvolvedores web, onde você pode encontrar tutoriais e referências das linguagens de desenvolvimento para web, assim  como HTML, CSS, JavaScript, PHP, SQL, W3.CSS e Bootstrap</p>
-		<center><img src="img/w3schools.jpg"></center>
+			<center><h2>Conheça um pouco sobre Javascript</h2></center>
+			  <center><p class="titulos"><a href="javascript.html">Clique aqui para o conhecer!</a></p></center>
+			  <center><h2>Posicionamento</h2></center>
+			  <center><p class="titulos"><a href="posicionamento.html">Clique aqui para ver os posicionamentos em css!</a></p></center>
 	</div>
+      <footer>
+      	<p class="titulos">Rodapé</p>     	
+      </footer>
 
 </body>
 
